@@ -12,12 +12,13 @@ public class Fibonacci {
 
     public static void main(String[] args) {
         Fibonacci fibonacci = new Fibonacci();
-        int number = 7;
+        int number = 45;
         numbers = new int[number + 1];
         numbers[1] = 1;
         numbers[2] = 1;
+        fibonacci.solution(number);
         for (int i = 1; i < number + 1; i++) {
-            System.out.print(fibonacci.solution(i) + " ");
+            System.out.print(numbers[i] + " ");
         }
     }
 }
