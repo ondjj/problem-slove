@@ -1,4 +1,4 @@
-package programmers;
+package programmers.dfs;
 
 public class RecursiveFunction {
     public void solution(int a) {

@@ -1,4 +1,4 @@
-package programmers;
+package programmers.dfs;
 
 public class Fibonacci {
     private static int[] numbers;

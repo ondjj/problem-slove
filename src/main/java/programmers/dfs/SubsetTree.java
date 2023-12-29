@@ -1,4 +1,4 @@
-package programmers;
+package programmers.dfs;
 
 
 public class SubsetTree {
