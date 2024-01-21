@@ -10,15 +10,14 @@ public class Permutation {
     public void process(int level, int[] arr) {
         if (level == m) {
             System.out.println(Arrays.toString(list));
+            return;
         }
-        else{
-            for (int i = 0; i < n; i++) {
-                if (check[i] == 0) {
-                    check[i] = 1;
-                    list[level] = arr[i];
-                    process(level + 1, arr);
-                    check[i] = 0;
-                }
+        for (int i = 0; i < n; i++) {
+            if (check[i] == 0) {
+                check[i] = 1;
+                list[level] = arr[i];
+                process(level + 1, arr);
+                check[i] = 0;
             }
         }
     }
